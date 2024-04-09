@@ -51,6 +51,6 @@ class Rectangle:
         for i in range(self.height):
             for j in range(self.width):
                 string += '#'
-            if i != self.height - 1:  # This is to avoid 'new line' after the last line
+            if i != self.height - 1:
                 string += '\n'
         return string
