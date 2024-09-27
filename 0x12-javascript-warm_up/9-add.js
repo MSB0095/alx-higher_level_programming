@@ -1,6 +1,7 @@
 #!/usr/bin/node
-if (process.argv[2] === undefined) {
-	console.log('No argument');
-  } else {
-	console.log(process.argv[2]);
-  }
+function add (a, b) {
+  const c = a + b;
+  console.log(c);
+}
+
+add(Number(process.argv[2]), Number(process.argv[3]));
